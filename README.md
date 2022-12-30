@@ -55,3 +55,19 @@ Rectangle(width=10, height=3)
 **********
 **********
 
+81
+5.656854249492381
+Square(side=4)
+****
+****
+****
+****
+
+8
+```
+
+The unit tests for this project are in `test_module.py`.
+
+### Development
+
+Write your code in `shape_calculator.py`. For development, you can use `main.py` to test your `shape_calculator()` function. Click the "run" button and `main.py` will run.
