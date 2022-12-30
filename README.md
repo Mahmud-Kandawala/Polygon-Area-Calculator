@@ -26,3 +26,19 @@ The Square class should be able to access the Rectangle class methods but should
 Additionally, the `set_width` and `set_height` methods on the Square class should set both the width and height.
 
 ## Usage example
+
+```py
+rect = shape_calculator.Rectangle(10, 5)
+print(rect.get_area())
+rect.set_height(3)
+print(rect.get_perimeter())
+print(rect)
+print(rect.get_picture())
+
+sq = shape_calculator.Square(9)
+print(sq.get_area())
+sq.set_side(4)
+print(sq.get_diagonal())
+print(sq)
+print(sq.get_picture())
+
